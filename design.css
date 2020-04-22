@@ -1,0 +1,101 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #333333;
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	}
+p {
+	margin-top: 0;
+	text-align: left;
+	}
+img {
+	border: 0px solid #ffffff;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 560px;
+	}
+#pageHeader {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	}
+#navigation {
+	text-align: center;
+	}
+
+ul.tabs {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.tabs li {
+  float: left;
+  padding: 0;
+  margin: 0;
+  padding-top: 0;
+  background: url(tab-right.gif) no-repeat right top;
+  margin-right: 1px;
+}
+
+ul.tabs li a {
+  display: block;
+  padding: 0px 10px;
+	color: #333333;
+  text-decoration: none;
+  background: url(tab-left.gif) no-repeat left top;
+}
+
+ul.tabs li a:hover {
+  color: #666666;
+}
+#title h2 {
+	text-align: center;
+	}
+#title h3 {
+        text-align: center;
+        }
+#feature {
+	text-align: center;
+	}
+#oilsoncanvas {
+	text-align: center;
+	}
+#oilsoncanvas table {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+#oilsoncanvas tr td {
+	width: 33%;
+	}
+#worksonpaper {
+	text-align: center;
+	}
+#worksonpaper table {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+#worksonpaper tr td {
+	width: 33%;
+	}
+#artiststatement {
+	text-align: left;
+	}
+#selectedexhibits {
+	text-align: left;
+	}
+#footer p {
+	font: 90% georgia, sans-serif;
+	text-align: center;
+	}

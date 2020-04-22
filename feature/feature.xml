@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <slideshow version="2">
+      <layout>
+        <vbox>
+          <vboxitem id="images" height="100%" padt="0" padr="0" padb="0" padl="0" />
+        </vbox>
+      </layout>
+      <background color="#FFFFFF" fade="true" transparent="false" />
+      <caption font="Verdana" size="10" color="#000000" bold="false" align="center" selectable="false" border="false" />
+      <thumbnails border="false" horizontal="false" />
+      <controls bgcolor="#C5CED5">
+        <title text="" font="Arial" size="16" color="#333333" bold="true" />
+        <buttons>
+          <item id="first" label="&lt;&lt;" />
+          <item id="prev" label="&lt;" />
+          <item id="gotobox" label="" />
+          <item id="next" label="&gt;" />
+          <item id="last" label="&gt;&gt;" />
+          <item id="autoplay" label="Autoplay?" />
+        </buttons>
+      </controls>
+      <images autoplay="true" loop="true" delay="7" requireloaded="1" usecache="true" linktarget="_self" transition="Fade">
+	<image url="feature/feature_blue_figure.jpg" caption="Blue Figure" link="" />
+	<image url="feature/feature_dream.jpg" caption="Dream" link="" />
+	<image url="feature/feature_eye_beam.jpg" caption="Eye Beam" link="" />
+	<image url="feature/feature_wavy_hair.jpg" caption="Wavy Hair" link="" />
+	<image url="feature/feature_pink_cheeks.jpg" caption="Pink Cheeks" link="" />
+	<image url="feature/feature_heads_gears.jpg" caption="Heads and Gears" link="" />
+	<image url="feature/feature_cosmic_waves.jpg" caption="Cosmic Waves" link="" />
+	<image url="feature/feature_flyer.jpg" caption="Flyer" link="" />
+	<image url="feature/feature_pink_snowman.jpg" caption="Pink Snowman" link="" />
+	<image url="feature/feature_nudie.jpg" caption="Nudie" link="" />
+	<image url="feature/feature_blastula.jpg" caption="Blastula" link="" />
+	<image url="feature/feature_eyesmouths.jpg" caption="Eyesmouths" link="" />
+	<image url="feature/feature_head_on_hill.jpg" caption="Head on Hill" link="" />
+	<image url="feature/feature_back_of_head.jpg" caption="Back of Head" link="" />
+	<image url="feature/feature_wrapped_figures.jpg" caption="Wrapped Figures" link="" />
+	<image url="feature/feature_crossed_figures.jpg" caption="Crossed Figures" link="" />
+	<image url="feature/feature_red_box.jpg" caption="Red Box" link="" />
+	<image url="feature/feature_klees_trees.jpg" caption="Klee's Trees" link="" />
+	<image url="feature/feature_silver-gold.jpg" caption="Silver-Gold" link="" />
+      </images>
+    </slideshow>
