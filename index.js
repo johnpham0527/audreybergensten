@@ -101,3 +101,4 @@ let slideShowTimer = setInterval(display, interval);
 /*** To-do */
 // [ ] Aspect ratio fails after one loop through the array
 // [ ] Need to center images
+// [ ] Need to use responsive design
