@@ -96,3 +96,7 @@ const display = () => {
 /*** Advance to the next slide every two seconds */
 let interval = 3000; //slideshow transitions every 3 seconds
 let slideShowTimer = setInterval(display, interval);
+
+
+/*** To-do */
+// [ ] Aspect ratio fails after one loop through the array
