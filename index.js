@@ -62,6 +62,8 @@ const setFadeOut = () => {
     slide.classList.remove("fadeIn");
 }
 
+
+
 /*** Function to display next slide */
 const display = () => {
 
