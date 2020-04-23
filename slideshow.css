@@ -8,3 +8,13 @@
 .fadeIn {
    opacity: 0;
 }
+
+#app {
+   width: 550px;
+   height: 409px;
+   margin-top: 2em;
+}
+
+img {
+   max-width: 100%;
+}
