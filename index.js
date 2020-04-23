@@ -1,6 +1,5 @@
 'use strict';
 
-let test = document.getElementById("app");
 const URL = "http://www.john-pham.com/audreybergensten/feature/";
 let picturesArray = [
             "feature_back_of_head.jpg",
@@ -66,18 +65,21 @@ const setFadeOut = () => {
 
 /*** Function to display next slide */
 const display = () => {
+    let slideshow = document.getElementById("app");
 
-  if (count === MAXSLIDES) {
-    count = 0
-  } 
+    if (count === MAXSLIDES) {
+        count = 0
+    } 
   
-  let outputLink = URL + picturesArray[count++];
-  test.innerHTML = `<img src=${outputLink} alt="slideshow">`;
+    let outputLink = URL + picturesArray[count++];
+    slideshow.innerHTML = `<img src=${outputLink} alt="slideshow" class="slideshowImage">`;
   
-  setTimeout(setFadeIn, 2100);
-  setTimeout(setFadeOut, 3000);
+
+
+    setTimeout(setFadeIn, 2100);    //fade to white after 2.1 seconds
+    setTimeout(setFadeOut, 3000);   //reset to full opacity after 3 seconds
 }
 
 /*** Advance to the next slide every two seconds */
-let interval = 3000;
+let interval = 3000; //slideshow transitions every 3 seconds
 let slideShowTimer = setInterval(display, interval);
