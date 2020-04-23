@@ -25,7 +25,7 @@ let picturesArray = [
 
 let count = 0;
 const MAXSLIDES = picturesArray.length;
-const MAXIMAGEWIDTH = 500;
+const MAXIMAGEWIDTH = 550;
 const MAXIMAGEHEIGHT = 409;
 
 /*** Pre-fetch images */
