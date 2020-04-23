@@ -84,7 +84,10 @@ const display = () => {
   
     let currentImage = document.querySelector(".slideshowImage");
     document.getElementById("debug").innerHTML = currentImage.height;
-    //currentImage.style.height = 409 + "px";
+
+    let imageResize = calculateAspectRatioFit(currentImage.width, currentImage.height);
+    currentImage.style.width = imageResize.width + "px";
+    currentImage.style.height = imageResize.height + "px";
 
     setTimeout(setFadeIn, 2100);    //fade to white after 2.1 seconds
     setTimeout(setFadeOut, 3000);   //reset to full opacity after 3 seconds
