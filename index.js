@@ -25,6 +25,8 @@ let picturesArray = [
 
 let count = 0;
 const MAXSLIDES = picturesArray.length;
+const MAXIMAGEWIDTH = 500;
+const MAXIMAGEHEIGHT = 409;
 
 /*** Pre-fetch images */
 function preloader() {
@@ -61,7 +63,13 @@ const setFadeOut = () => {
     slide.classList.remove("fadeIn");
 }
 
-
+const calculateAspectRatioFit = (sourceWidth, sourceHeight) => {
+    let ratio = Math.min(MAXIMAGEWIDTH / sourceWidth, MAXIMAGEHEIGHT / sourceHeight); //find the lower of the width or height aspect ratios
+    return {
+        width: sourceWidth * ratio,
+        height: sourceHeight * ratio
+    }
+}
 
 /*** Function to display next slide */
 const display = () => {
@@ -74,7 +82,9 @@ const display = () => {
     let outputLink = URL + picturesArray[count++];
     slideshow.innerHTML = `<img src=${outputLink} alt="slideshow" class="slideshowImage">`;
   
-
+    let currentImage = document.querySelector(".slideshowImage");
+    document.getElementById("debug").innerHTML = currentImage.height;
+    //currentImage.style.height = 409 + "px";
 
     setTimeout(setFadeIn, 2100);    //fade to white after 2.1 seconds
     setTimeout(setFadeOut, 3000);   //reset to full opacity after 3 seconds
