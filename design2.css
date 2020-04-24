@@ -50,6 +50,14 @@ nav ul li a:hover {
     color: #666666;
 }
 
+main {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+ }
+
 footer {
     font: 0.9em Georgia, sans-serif;
     text-align: center;
