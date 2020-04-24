@@ -34,17 +34,17 @@ body {
     padding: 0.25em 0.75em 0.2em 0.75em;
     text-decoration: none;
     color: #333333;
+    border: 1px solid #979797;
 }
 
 .tab {
     border-bottom-left-radius: 0em;
     border-bottom-right-radius: 0em;
-    border: 1px solid #979797;
     border-bottom: none;
 }
 
 header {
-    margin: 0.5em auto 0.5em auto;
+    margin: 0.25em auto 0.25em auto;
     text-align: center;
     grid-column: 1 / 13;
     grid-row: 1 / 1;
