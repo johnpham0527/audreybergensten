@@ -83,7 +83,7 @@ const display = () => {
     slideshow.innerHTML = `<img src=${outputLink} alt="slideshow" class="slideshowImage">`;
   
     let currentImage = document.querySelector(".slideshowImage");
-    document.getElementById("debug").innerHTML = currentImage.height;
+    //document.getElementById("debug").innerHTML = currentImage.height;
 
     let imageResize = calculateAspectRatioFit(currentImage.width, currentImage.height);
     currentImage.style.width = imageResize.width + "px";
