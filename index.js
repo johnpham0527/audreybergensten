@@ -101,4 +101,4 @@ let slideShowTimer = setInterval(display, interval);
 /*** To-do */
 // [ ] Aspect ratio fails after one loop through the array
 // [ ] Need to use responsive design
-// [ ] Header and nav need to be mobile-responsive
+// [ ] Header and nav need to be mobile-responsive for breakpoints below 670px
