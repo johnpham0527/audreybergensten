@@ -6,7 +6,9 @@ html {
     box-sizing: inherit;
 }
 
-.header {
+header h1 {
     background-image: linear-gradient(#979797, #ffffff, #979797);
     padding: 1em 0 1em 0;
+    text-align: center;
+
 }
