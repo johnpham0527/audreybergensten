@@ -101,3 +101,4 @@ let slideShowTimer = setInterval(display, interval);
 /*** To-do */
 // [ ] Aspect ratio fails after one loop through the array
 // [ ] Need to use responsive design
+// [ ] Implement viewport break points for header h1: it shouldn't be displaying 100%
