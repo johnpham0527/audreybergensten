@@ -7,7 +7,12 @@ html {
 }
 
 header h1 {
-    background-image: linear-gradient(#979797, #ffffff, #979797);
+    background-image: linear-gradient(
+    #979797,#e0e0d8, #e7e7e3,
+    #fafaf9, #fbfbfb, #fcfcfc, #fdfdfd, #fefefe, 
+    #ffffff, 
+    #fdfdfd, #fefefe, #fbfbfb, #fcfcfc, #fafaf9,
+    #e7e7e3, #e0e0d8, #979797);
     padding: 1em 0 1em 0;
     text-align: center;
 
