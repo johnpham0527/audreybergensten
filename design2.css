@@ -19,7 +19,12 @@ html {
 
 }
 
-header h1 {
-    padding: 1em 0 1em 0;
+header {
+    margin: 0.5em auto 0.5em auto;
     text-align: center;
+}
+
+header h1 {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
 }
