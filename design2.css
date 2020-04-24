@@ -48,6 +48,7 @@ header {
     text-align: center;
     grid-column: 1 / 13;
     grid-row: 1 / 1;
+    width: 650px;
 }
 
 nav {
