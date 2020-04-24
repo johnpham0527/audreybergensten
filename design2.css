@@ -48,31 +48,7 @@ nav ul li a:hover {
     color: #666666;
 }
 
-
-
-ul.tabs {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  ul.tabs li {
-    float: left;
-    padding: 0;
-    margin: 0;
-    padding-top: 0;
-    background: url(tab-right.gif) no-repeat right top;
-    margin-right: 1px;
-  }
-  
-  ul.tabs li a {
-    display: block;
-    padding: 0px 10px;
-      color: #333333;
-    text-decoration: none;
-    background: url(tab-left.gif) no-repeat left top;
-  }
-  
-  ul.tabs li a:hover {
-    color: #666666;
-  }
+footer {
+    font: 0.9em Georgia, sans-serif;
+    text-align: center;
+}
