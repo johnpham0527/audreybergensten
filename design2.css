@@ -13,13 +13,14 @@ body {
 }
 
 #container > * {
-    padding: 0.1em;
+    padding: 0.1rem;
 }
 
 #container {
     display: grid;
-    grid-template-columns: minmax(500px, auto);
+    grid-template-columns: minmax(670px, auto);
     grid-template-rows: 1fr 1fr minmax(500px, auto) 1fr;
+    grid-gap: 0.1rem;
 }
 
 .rounded {
@@ -49,7 +50,7 @@ header {
     text-align: center;
     grid-column: 1 / 13;
     grid-row: 1 / 1;
-    width: 650px;
+    width: 660px;
 }
 
 nav {
