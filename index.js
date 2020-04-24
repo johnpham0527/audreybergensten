@@ -89,12 +89,12 @@ const display = () => {
     currentImage.style.width = imageResize.width + "px";
     currentImage.style.height = imageResize.height + "px";
 
-    setTimeout(setFadeIn, 2100);    //fade to white after 2.1 seconds
-    setTimeout(setFadeOut, 3000);   //reset to full opacity after 3 seconds
+    setTimeout(setFadeIn, 3000);    //fade to white after 2.1 seconds
+    setTimeout(setFadeOut, 4000);   //reset to full opacity after 4 seconds
 }
 
 /*** Advance to the next slide every two seconds */
-let interval = 3000; //slideshow transitions every 3 seconds
+let interval = 4000; //slideshow transitions every 4 seconds
 let slideShowTimer = setInterval(display, interval);
 
 
