@@ -168,7 +168,18 @@ footer {
 
 /*** Tablet Styles 
 ======================== */
+@media all and (min-width: 481px) and (max-width: 685px) {
+    body {
+        margin: 0 0.1em 0.1em 0.1em;
+    }
 
+    #container {
+        grid-template-columns: minmax(481px, 685px);
+        grid-template-rows: auto;
+    }
 
-/*** Desktop Styles 
-======================== */
+    header {
+        width: 100%;
+    }
+
+}
