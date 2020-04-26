@@ -134,6 +134,11 @@ footer {
     #app {
         display: none;
     }
+
+    nav ul li {
+        display: flex;
+        font-size: 2em;
+    }
 }
 
 
