@@ -130,6 +130,7 @@ footer {
     #container {
         grid-template-columns: minmax(auto, 480px);
         grid-template-rows: auto;
+
     }
 
     header {
@@ -142,6 +143,7 @@ footer {
 
     nav {
         margin-bottom: 1em;
+        text-align: left;
     }
 
     nav ul li {
@@ -151,10 +153,10 @@ footer {
     }
 
     main {
-        background-image: url("thumbs/thumb_dream.jpg");
+        background-image: url("feature/feature_crossed_figures.jpg");
         background-repeat: no-repeat;
-        width: 160px;
-        height: 106px;
+        width: 237px;
+        height: 180px;
         margin-bottom: 1em;
     }
 
