@@ -100,8 +100,3 @@ if (viewportWidth > 480) { //run the slideshow only if the viewport is wider tha
     let interval = 4000; //slideshow transitions every 4 seconds
     let slideShowTimer = setInterval(display, interval);
 }
-
-
-
-/*** To-do */
-// [ ] Aspect ratio fails after one loop through the array
