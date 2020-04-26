@@ -127,7 +127,9 @@ footer {
         grid-template-columns: minmax(auto, 480px);
     }
 
-
+    header {
+        width: 450px;
+    }
 }
 
 
