@@ -164,8 +164,6 @@ footer {
 }
 
 
-
-
 /*** Tablet Styles 
 ======================== */
 @media all and (min-width: 481px) and (max-width: 685px) {
@@ -180,6 +178,16 @@ footer {
 
     header {
         width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        margin: auto 0.25em 0.75em 0;
     }
 
 }
