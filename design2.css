@@ -116,6 +116,21 @@ footer {
 
 /*** Mobile Styles 
 ======================== */
+/*
+[ ] Reduce header
+[ ] Stack navigation menu vertically
+[ ] Do not show slideshow. Do not execute slideshow JavaScript.
+*/
+
+@media all and (max-width: 480px) {
+    #container {
+        grid-template-columns: minmax(auto, 480px);
+    }
+
+
+}
+
+
 
 
 /*** Tablet Styles 
