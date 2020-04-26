@@ -1,3 +1,6 @@
+/*** Global Styles 
+======================== */
+
 html {
     box-sizing: border-box;
 }
@@ -110,3 +113,14 @@ footer {
     grid-column: 1 / 13;
     grid-row: 4 / 4;
 }
+
+/*** Mobile Styles 
+======================== */
+
+
+/*** Tablet Styles 
+======================== */
+
+
+/*** Desktop Styles 
+======================== */
