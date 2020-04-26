@@ -130,6 +130,10 @@ footer {
     header {
         width: 450px;
     }
+
+    #app {
+        display: none;
+    }
 }
 
 
