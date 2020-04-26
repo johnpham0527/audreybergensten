@@ -123,6 +123,10 @@ footer {
 */
 
 @media all and (max-width: 480px) {
+    body {
+        margin: 0 1em 1em 1em;
+    }
+
     #container {
         grid-template-columns: minmax(auto, 480px);
         grid-template-rows: auto;
@@ -136,9 +140,14 @@ footer {
         display: none;
     }
 
+    nav {
+        margin-bottom: 1em;
+    }
+
     nav ul li {
         display: flex;
         font-size: 1.75em;
+        margin-bottom: 0.1em;
     }
 
     main {
@@ -146,6 +155,11 @@ footer {
         background-repeat: no-repeat;
         width: 160px;
         height: 106px;
+        margin-bottom: 1em;
+    }
+
+    footer {
+        text-align: left;
     }
 }
 
